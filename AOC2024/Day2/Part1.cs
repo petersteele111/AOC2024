@@ -5,17 +5,8 @@
         public static void Run()
         {
             var input = File.ReadAllLines("Day2/input.txt");
-            var safeReportsCount = 0;
+            var safeReportsCount = input.Select(line => line.Split(' ').Select(int.Parse).ToList()).Count(IsSafeReport);
 
-            foreach (var line in input)
-            {
-                var levels = line.Split(' ').Select(int.Parse).ToList();
-
-                if (IsSafeReport(levels))
-                {
-                    safeReportsCount++;
-                }
-            }
             Console.WriteLine($"Number of safe reports: {safeReportsCount}");
         }
 
