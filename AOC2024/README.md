@@ -4,10 +4,13 @@ AOC2024 is a C# project designed to solve problems from the Advent of Code 2024.
 
 ## Project Structure
 
-- `AOC2024/Program.cs`: The main entry point of the application.
-- `AOC2024/Day1/Part1.cs`: Solution for Day 1, Part 1.
-- `AOC2024/Day1/Part2.cs`: Solution for Day 1, Part 2.
+- `Program.cs`: The main entry point of the application.
+- `Day1/Part1.cs`: Solution for Day 1, Part 1.
+- `Day1/Part2.cs`: Solution for Day 1, Part 2.
 - `Day1/input.txt`: Input file for Day 1 problems.
+- `Day2/Part1.cs`: Solution for Day 2, Part 1.
+- `Day2/Part2.cs`: Solution for Day 2, Part 2.
+- `Day2/input.txt`: Input file for Day 2 problems.
 
 This structure will be repeated for each day of the Advent of Code 2024.    s
 
