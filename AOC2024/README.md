@@ -18,7 +18,7 @@ This structure will be repeated for each day of the Advent of Code 2024.
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/AOC2024.git
+    git clone https://github.com/petersteele111/AOC2024.git
     cd AOC2024
     ```
 
