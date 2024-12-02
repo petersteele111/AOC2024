@@ -12,7 +12,7 @@ AOC2024 is a C# project designed to solve problems from the Advent of Code 2024.
 - `Day2/Part2.cs`: Solution for Day 2, Part 2.
 - `Day2/input.txt`: Input file for Day 2 problems.
 
-This structure will be repeated for each day of the Advent of Code 2024.    s
+This structure will be repeated for each day of the Advent of Code 2024.
 
 ## How to Run
 
