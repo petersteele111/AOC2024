@@ -8,10 +8,7 @@ public class Part1
     {
         var input = File.ReadAllText("Day3/input.txt");
         var sum = 0;
-
-        Console.WriteLine("Starting to process input...");
-
-        // Regular expression to match valid mul(X,Y) instructions
+        
         var regex = new Regex(@"mul\((\d+),(\d+)\)");
         var matches = regex.Matches(input);
 
@@ -21,8 +18,6 @@ public class Part1
             var y = int.Parse(match.Groups[2].Value);
             var result = x * y;
             sum += result;
-
-            Console.WriteLine($"Found valid instruction: mul({x},{y}) = {result}");
         }
 
         Console.WriteLine($"Sum of all valid multiplications: {sum}");
